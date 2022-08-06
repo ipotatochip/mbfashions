@@ -1,0 +1,335 @@
+/*********************/
+/*       Fonts       */
+/*********************/
+
+/* font-family: 'JelleeBold', sans-serif;
+   font-family: 'MeromSansRegular';
+   font-family: 'EchotopiaRegular';
+
+
+   */
+
+
+/*********************/
+/*      Colors       */
+/*********************/
+
+/* True Blue - #3066BE
+
+Violet Crayola - #963484
+
+Blue Jeans - #60AFFF
+
+Capri - #28C2FF
+
+Aqua - #2AF5FF */
+
+
+
+/*********************/
+/*     HTML BODY     */
+/*********************/
+
+body{
+  background-image: url(../images/bg/one.jpg);
+  background-repeat: no-repeat;
+  
+}
+
+
+
+
+
+
+
+
+/*********************/
+/*     Preloader     */
+/*********************/
+
+#preloader{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999999;
+  }
+  
+  #preloader_child{
+    background-image: url("/images/preloader.gif");
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -400px;
+  }
+
+
+
+  
+/*********************/
+/*     Nav Bar     */
+/*********************/
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+	color: rgb(255, 255, 255);
+	font-size: 33px;
+    
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13.3px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3066BE;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+  }
+  
+
+
+/*********************/
+/*    Main Section   */
+/*********************/
+
+.main-carousel-box{
+min-height: 200px;
+height: 300px;
+padding-top: 10px;
+}
+
+.main-carousel-text{
+  display: flex;
+  justify-content: left;
+
+}
+
+
+/* .carousel-inner video{
+  height: 600px;
+  width: 100vmax;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+
+.carousel-inner{
+position: absolute;
+top: 50%;
+left: auto;
+transform: translateX(-50) translateY(-50);
+min-width:100%;
+padding: 0;
+margin: 0;
+}
+
+.carousel-inner video source{
+  width: 100vw;
+}
+
+.carousel-bg-span{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-family: 'JelleeBold', sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 30px;
+   padding: 10px 15px;
+} */
+
+
+
+/*********************/
+/*   Our Expertise   */
+/*********************/
+
+#card-first-expertise{
+  padding: 20px;
+}
+
+.cards-one-main{
+  padding: 40px ;
+  
+}
+
+.cards-one-sub{
+  padding: 20px;
+}
+
+.card-one img{
+  height: 200px;
+  width: auto;
+  border-bottom: 2px solid black;
+}
+
+#card-one-bd-1{
+  box-shadow: 8px 8px 10px black; 
+}
+#card-one-bd-2{
+  box-shadow: 8px 8px 10px black;
+}
+#card-one-bd-3{
+  box-shadow: 8px 8px 10px black;
+}
+#card-one-bd-4{
+  box-shadow: 8px 8px 10px black;
+}
+
+.card-title{
+  font-family: 'MeromSansRegular' sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*********************/
+/*      Footer       */
+/*********************/
+
+.footer_main #f-bg-colour {
+  padding: 5px 10px;
+}
+
+
+
+#f-bg-colour{
+  background-color: black;
+  height: 285px;
+  width: 100%;
+}
+
+#footer_heading-main h6 {
+  color:#2AF5FF;
+  font-family: 'EchotopiaRegular'sans-serif;
+  font-size: 15px;
+}
+#footer_heading-main h1 {
+  color: #d055b9;
+  font-family: 'echotopia',sans-serif;
+}
+
+
+
+.copy-right-section{
+  color: #f2f2f2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.news_letter_main{
+  display: flex;
+  justify-content: center;
+  font-family: 'jellee-typeface', sans-serif; 
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.0rem;
+  background-color:#000000;
+}
+
+
+/* --color-primary: #11998e;
+--color-secondary: #38ef7d;
+--color-white: #fff;
+--color-gray: #9b9b9b;  */
+/* 
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+} 
+*/
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid  #9b9b9b;
+  outline: 0;
+  font-size: 1.1rem;
+  color:  #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: transparent;
+    font-size: 15px;
+  }
+
+  &:placeholder-shown ~ .form__label {
+    font-size: 20px;
+    cursor: text;
+    top: 20px;
+  } 
+}
+/* 
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color:  #9b9b9b;
+} */
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color:  #11998e;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e , #38ef7d);
+  border-image-slice: 1;
+}
+
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
+
+#button_footer{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0%;
+}
