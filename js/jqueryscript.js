@@ -9,3 +9,10 @@ $(window).on('load',function() {
     $('#preloader_run').fadeOut();
     $('#preloader').delay(350).fadeOut();
 });
+
+
+
+
+/*********************/
+/*  Women-Cards-01   */
+/*********************/

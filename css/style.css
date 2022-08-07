@@ -5,6 +5,8 @@
 /* font-family: 'JelleeBold', sans-serif;
    font-family: 'MeromSansRegular';
    font-family: 'EchotopiaRegular';
+   font-family: 'OpenSauceTwoRegular';
+ 
 
 
    */
@@ -31,7 +33,7 @@ Aqua - #2AF5FF */
 /*********************/
 
 body{
-  background-image: url(../images/bg/one.jpg);
+  background-image: url(../images/bg/three.jpg);
   background-repeat: no-repeat;
   
 }
@@ -230,6 +232,10 @@ margin: 0;
   height: 285px;
   width: 100%;
 }
+/* 
+#footer_heading-main{
+  padding: 10px 20px;
+} */
 
 #footer_heading-main h6 {
   color:#2AF5FF;
@@ -333,3 +339,102 @@ margin: 0;
   display: flex;
   padding: 0%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************/
+/*   Shopping Page   */
+/*********************/
+
+
+
+.bg-card-color-women-1{
+background: #E3E3D8;
+font-family: sans-serif;
+padding: 25px;
+}
+
+
+.women-carousel-caption {
+  position: absolute;
+  right: 12%;
+  bottom: 140px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+.women-carousel-caption-2{
+  position: absolute;
+  right: 10%;
+  bottom: 130px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(255, 98, 0);
+  text-align: left;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+.collection span{
+  color: yellowgreen;
+  font-size: 25px;
+  font-weight: 800;
+  padding-left: 5px;
+}
+
+.collection input{
+  position: absolute;
+  height: 45px;
+  width: 110px;
+  background-color: yellowgreen;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  top: 35%;
+  left: 30%;
+  opacity: 0;
+
+
+
+
+
+}
+
+.collection .card:hover input{
+  opacity: 1;
+  transition: 1s;
+
+  }
+
+.collection input:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+/* ------------------------------------------------------------------------------------------------- */
