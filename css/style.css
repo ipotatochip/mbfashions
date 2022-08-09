@@ -398,43 +398,41 @@ padding: 25px;
 }
 
 
-/* ----------------------------------------------------------------------------------------- */
+/*````````````````````````````````````````````````````````````````````````````*/
 
-.collection span{
-  color: yellowgreen;
-  font-size: 25px;
-  font-weight: 800;
+.women-card-shopping span{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
   padding-left: 5px;
 }
 
-.collection input{
-  position: absolute;
-  height: 45px;
-  width: 110px;
-  background-color: yellowgreen;
+.women-card-shopping input{
+
+  background-color: rgb(0, 0, 0);
   color: white;
   border-radius: 5px;
   outline: none;
   border: none;
-  text-align: center;
-  top: 35%;
-  left: 30%;
+  text-align: bottom;
   opacity: 0;
-
-
-
-
-
 }
 
-.collection .card:hover input{
+.women-card-shopping .card:hover input{
   opacity: 1;
   transition: 1s;
-
   }
 
-.collection input:hover{
-  background-color: gray;
+.women-card-shopping input:hover{
+  background-color: rgb(0, 0, 0);
   transition: 0.5s;
 }
-/* ------------------------------------------------------------------------------------------------- */
+.card-bx-shadow{
+box-shadow: 8px 8px 10px black;
+border: 1px solid black;
+}
+#card-lastest-arrival{
+  font-size: 17px;
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
