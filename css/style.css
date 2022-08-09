@@ -34,8 +34,8 @@ Aqua - #2AF5FF */
 
 body{
   background-image: url(../images/bg/three.jpg);
-  background-repeat: no-repeat;
-  
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 
@@ -362,12 +362,7 @@ margin: 0;
 
 
 
-.bg-card-color-women-1{
-background: #E3E3D8;
-font-family: sans-serif;
-padding: 25px;
-}
-
+/*````````````````````````````````````````````````````````````````````````````*/
 
 .women-carousel-caption {
   position: absolute;
@@ -386,12 +381,25 @@ padding: 25px;
 .women-carousel-caption-2{
   position: absolute;
   right: 10%;
-  bottom: 130px;
+  bottom: 80px;
+  left: 10%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+.women-carousel-caption-3 {
+  position: absolute;
+  right: 12%;
+  bottom: 20px;
   left: 15%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
-  color: rgb(255, 98, 0);
-  text-align: left;
+  color: rgb(255, 255, 255);
+  text-align: right;
   font-family: 'OpenSauceTwoRegular';
    font-weight: normal;
    font-style: normal;
@@ -400,6 +408,15 @@ padding: 25px;
 
 /*````````````````````````````````````````````````````````````````````````````*/
 
+
+.bg-card-color-women-1{
+  background: #E3E3D8;
+  font-family: sans-serif;
+  padding: 25px;
+  }
+
+  
+  
 .women-card-shopping span{
   color: rgb(0, 0, 0);
   font-size: 18px;
@@ -436,3 +453,180 @@ border: 1px solid black;
 }
 
 /*````````````````````````````````````````````````````````````````````````````*/
+
+
+
+/*********************/
+/*    Men's   Page   */
+/*********************/
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+.men-carousel-caption {
+  position: absolute;
+  right: 12%;
+  bottom: 150px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+.men-carousel-caption-2{
+  position: absolute;
+  right: 10%;
+  bottom: 150px;
+  left: 10%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+.men-carousel-caption-3 {
+  position: absolute;
+  right: 12%;
+  bottom: 330px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+  
+  
+.mens-card-shopping span{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.mens-card-shopping input{
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: bottom;
+  opacity: 0;
+}
+
+.mens-card-shopping .card:hover input{
+  opacity: 1;
+  transition: 1s;
+  }
+
+.mens-card-shopping input:hover{
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.card-bx-shadow{
+box-shadow: 8px 8px 10px black;
+border: 1px solid black;
+}
+#card-lastest-arrival{
+  font-size: 17px;
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+
+/*********************/
+/*   Children Page   */
+/*********************/
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+.children-carousel-caption {
+  position: absolute;
+  right: 12%;
+  bottom: 150px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+.children-carousel-caption-2{
+  position: absolute;
+  right: 10%;
+  bottom: 150px;
+  left: 10%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: bolder;
+   font-style: normal;
+}
+.children-carousel-caption-3 {
+  position: absolute;
+  right: 12%;
+  bottom: 170px;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  font-family: 'OpenSauceTwoRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+
+  
+  
+.children-card-shopping span{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.children-card-shopping input{
+
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: bottom;
+  opacity: 0;
+}
+
+.children-card-shopping .card:hover input{
+  opacity: 1;
+  transition: 1s;
+  }
+
+.children-card-shopping input:hover{
+  background-color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.card-bx-shadow{
+box-shadow: 8px 8px 10px black;
+border: 1px solid black;
+}
+#card-lastest-arrival{
+  font-size: 17px;
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
