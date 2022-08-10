@@ -26,7 +26,9 @@ Blue Jeans - #60AFFF
 
 Capri - #28C2FF
 
-Aqua - #2AF5FF */
+Aqua - #2AF5FF 
+
+Pink - #d055b9 */
 
 
 
@@ -662,4 +664,249 @@ border: 1px solid black;
 .card-bx-shadow{
 box-shadow: 8px 8px 10px black;
 border: 1px solid black;
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+/*********************/
+/* Headings Section  */
+/*********************/
+
+body .waviy .animate-charcter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  animation: flip 4s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+body .waviy .waviy-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+.waviy-1 {
+  position: relative;
+}
+.waviy-1 span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+  animation: flip 4s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #00ff48 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 123px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+.animate-charcter-1 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #d400eb 0%,
+    #db0202 29%,
+    #52f700 67%,
+    #fff200 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 113px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+.animate-charcter-3 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #ff0000 0%,
+    #00ff3c 29%,
+    #6652ff 67%,
+    #00fffb 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 95px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+.animate-charcter-4
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #00ff48 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 118px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/*````````````````````````````````````````````````````````````````````````````*/
+
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/*********************/
+/*   Contact   Page  */
+/*********************/
+
+
+
+.contact-section-1{
+  background-color: rgb(205, 203, 203) ;
+}
+
+
+
+.main-contact-section{
+  background-color:white;
+ 
 }
