@@ -1,4 +1,4 @@
-/*MB Fashions Page jQuery Sheet*/
+/*MB Fashions Page jQuery Code*/
 
 
 /*********************/
@@ -12,7 +12,3 @@ $(window).on('load',function() {
 
 
 
-
-/*********************/
-/*  Women-Cards-01   */
-/*********************/
