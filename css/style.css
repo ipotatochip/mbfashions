@@ -673,7 +673,7 @@ border: 1px solid black;
 /* Headings Section  */
 /*********************/
 
-body .waviy .animate-charcter {
+body .waviy {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -731,6 +731,7 @@ body .waviy .waviy-1 {
 .animate-charcter
 {
    text-transform: uppercase;
+  
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -747,8 +748,7 @@ body .waviy .waviy-1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 123px;
+  font-size: 30px;
 }
 
 @keyframes textclip {
@@ -778,8 +778,7 @@ body .waviy .waviy-1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 113px;
+  font-size: 30px;
 }
 
 @keyframes textclip {
@@ -809,8 +808,7 @@ body .waviy .waviy-1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 95px;
+  font-size: 30px;
 }
 
 @keyframes textclip {
@@ -841,8 +839,8 @@ body .waviy .waviy-1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
-  display: inline-block;
-  font-size: 118px;
+
+  font-size: 30px;
 }
 
 @keyframes textclip {
